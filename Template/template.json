@@ -2688,7 +2688,7 @@
     },
     {
       "categories": ["Downloaders"],
-      "description": "Popular torrent client with a webui for ease of use.",
+      "description": "Readarr is an ebook and audiobook collection manager for Usenet and BitTorrent users.",
       "env": [
         {
           "default": "1000",
@@ -2696,7 +2696,45 @@
           "name": "PUID"
         },
         {
-          "default": "100",
+          "default": "1000",
+          "label": "PGID",
+          "name": "PGID"
+        }
+      ],
+	  "image": "lscr.io/linuxserver/readarr:latest",
+      "logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/readarr-logo.png",
+      "name": "readarr",
+      "platform": "linux",
+      "ports": ["8787:8787/tcp"],
+      "restart_policy": "unless-stopped",
+      "title": "Readarr",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/readarr",
+          "container": "/config"
+        },
+        {
+          "bind": "/mnt/downloads",
+          "container": "/downloads"
+        }
+		{
+          "bind": "/mnt/books",
+          "container": "/books"
+        }
+      ]
+    },
+    {
+      "categories": ["Downloaders"],
+      "description": "SABnzbd makes Usenet as simple and streamlined as possible by automating everything we can. All you have to do is add an .nzb. SABnzbd takes over from there, where it will be automatically downloaded, verified, repaired, extracted and filed away with zero human interaction.",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "1000",
           "label": "PGID",
           "name": "PGID"
         }
