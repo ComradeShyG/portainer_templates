@@ -85,7 +85,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Music",
+          "bind": "/mnt/music",
           "container": "/music"
         },
         {
@@ -93,7 +93,7 @@
           "container": "/playlists"
         },
         {
-          "bind": "/portainer/Podcasts",
+          "bind": "/mnt/podcasts",
           "container": "/podcasts"
         },
         {
@@ -164,11 +164,11 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/mnt/tvshows",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/mnt/movies",
           "container": "/movies"
         }
       ]
@@ -202,11 +202,11 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Music",
+          "bind": "/mnt/music",
           "container": "/music"
         }
       ]
@@ -260,11 +260,11 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Books",
+          "bind": "/mnt/books",
           "container": "/books"
         },
         {
-          "bind": "/portainer/Files/Podcasts",
+          "bind": "/pmnt/podcasts",
           "container": "/podcast"
         },
         {
@@ -339,7 +339,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Books",
+          "bind": "/mnt/books",
           "container": "/books"
         },
         {
@@ -374,7 +374,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Books",
+          "bind": "/mnt/books",
           "container": "/books"
         },
         {
@@ -561,11 +561,11 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/mnt/movies",
           "container": "/movies"
         }
       ]
@@ -598,7 +598,7 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Music",
+          "bind": "/mnt/music",
           "container": "/music"
         }
       ]
@@ -651,7 +651,7 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         }
       ]
@@ -674,7 +674,7 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         }
       ]
@@ -712,7 +712,7 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         }
       ]
@@ -853,11 +853,11 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/mnt/tvshows",
           "container": "/data/tvshows"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/mnt/movies",
           "container": "/data/movies"
         }
       ]
@@ -962,7 +962,7 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Comics",
+          "bind": "/mnt/comics",
           "container": "/comics"
         },
         {
@@ -1083,11 +1083,11 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/Downloads"
         },
         {
-          "bind": "/portainer/Music",
+          "bind": "/mnt/music",
           "container": "/music"
         }
       ]
@@ -1233,7 +1233,7 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         }
       ]
@@ -1271,11 +1271,11 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/mnt/tvshows",
           "container": "/data/tvshows"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/mnt/movies",
           "container": "/data/movies"
         }
       ]
@@ -1458,11 +1458,11 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Music",
+          "bind": "/mnt/music",
           "container": "/music"
         }
       ]
@@ -1496,7 +1496,7 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Pictures",
+          "bind": "/mnt/pictures",
           "container": "/pictures"
         }
       ]
@@ -1594,11 +1594,11 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/mnt/tvshows",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         }
       ]
@@ -1673,7 +1673,7 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/music"
         }
       ]
@@ -1822,11 +1822,11 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Comics",
+          "bind": "/mnt/comics",
           "container": "/comics"
         }
       ]
@@ -1860,7 +1860,7 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         }
       ]
@@ -1894,7 +1894,7 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         }
       ]
@@ -2263,7 +2263,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Pictures",
+          "bind": "/mnt/pictures",
           "container": "/Pictures"
         },
         {
@@ -2369,11 +2369,11 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/mnt/tvshows",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/mnt/movies",
           "container": "/movies"
         }
       ]
@@ -2559,7 +2559,7 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         }
       ]
@@ -2623,11 +2623,11 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Movies",
+          "bind": "/mnt/movies",
           "container": "/movies"
         }
       ]
@@ -2681,7 +2681,7 @@
           "container": "/sync"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         }
       ]
@@ -2715,7 +2715,7 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         }
       ]
@@ -2749,11 +2749,11 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/Downloads/incomplete",
+          "bind": "/mnt/downloads/incomplete",
           "container": "/incomplete-downloads"
         }
       ]
@@ -2805,11 +2805,11 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/mnt/tvshows",
           "container": "/tv"
         }
       ]
@@ -2843,11 +2843,11 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/mnt/tvshows",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         }
       ]
@@ -2938,11 +2938,11 @@
           "container": "/dev/rtc"
         },
         {
-          "bind": "/portainer/TV",
+          "bind": "/mnt/tvshows",
           "container": "/tv"
         },
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         }
       ]
@@ -3122,7 +3122,7 @@
           "container": "/config"
         },
         {
-          "bind": "/portainer/Files/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/downloads"
         },
         {
@@ -3177,7 +3177,7 @@
       "type": 1,
       "volumes": [
         {
-          "bind": "/portainer/Downloads",
+          "bind": "/mnt/downloads",
           "container": "/data"
         },
         {
