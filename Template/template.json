@@ -2717,7 +2717,7 @@
         {
           "bind": "/mnt/downloads",
           "container": "/downloads"
-        }
+        },
 		{
           "bind": "/mnt/books",
           "container": "/books"
